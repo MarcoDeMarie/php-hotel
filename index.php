@@ -55,13 +55,13 @@
 <body>
 
     <div class="container d-flex">
-        <!-- <?php foreach ($hotels as $hotel): ?>
+        <?php foreach ($hotels as $hotel): ?>
         <h3><?php echo $hotel['name'] ?></h3>
         <p><?php echo $hotel['description'] ?></p>
         <p><?php echo $hotel['parking'] ?></p>
         <p><?php echo $hotel['vote'] ?></p>
         <p><?php echo $hotel['distance_to_center'] ?></p>
-        <?php endforeach; ?> -->
+        <?php endforeach; ?>
     </div>
 
     
